@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const catwaySchema = new mongoose.Schema({
     catwayNumber :  {type: Number, unique: true},
-    catwayType :    {type: String, "short" || "long"},
+    catwayType :    {type: String},
     catwayState :   {type: String}
 });
 
