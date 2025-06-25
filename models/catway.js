@@ -6,4 +6,4 @@ const catwaySchema = new mongoose.Schema({
     catwayState :   {type: String}
 });
 
-module.exports = mongoose.model('Catway', catwaySchema);
+module.exports = mongoose.model('catway', catwaySchema);
